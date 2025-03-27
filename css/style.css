@@ -46,6 +46,9 @@ nav ul li a{
     color: var(--var-white);
     
 }
+nav ul li a:hover{
+   color: var(--var-red);
+}
 .logo{
 
     font-family: "Bungee Tint", sans-serif;
@@ -75,6 +78,8 @@ nav ul li a{
 }
 
 .sobre-nos h1 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 200;
     font-size: 2rem;
     margin-bottom: 50px;
 }
@@ -83,7 +88,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .image-side img {
@@ -92,14 +97,32 @@ nav ul li a{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.671);
 }
 
+.image-side img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 .text-side {
     max-width: 500px;
     text-align: left;
 }
 
 .text-side p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+}
+
+.text-side img:hover{
+    transform: translateY(-7px);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+#evento-text{
+    margin-left: 27px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+
 }
 
 
