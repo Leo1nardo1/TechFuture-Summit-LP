@@ -21,6 +21,19 @@
     grid-template-columns: 1fr;
     min-height: 100dvh;
 }
+
+p{
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
 .header{
     background: var(--var-blue);
     display: flex;
@@ -75,13 +88,6 @@ nav ul li a:hover{
     background-color: var(--var-lightblue);
     text-align: center;
     padding:40px 20px;
-}
-
-.sobre-nos h1 {
-    font-family: "Bungee", sans-serif;
-    font-weight: 200;
-    font-size: 2rem;
-    margin-bottom: 50px;
 }
 
 .content {
@@ -162,7 +168,7 @@ nav ul li a:hover{
 
 .card p {
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 
